@@ -24,7 +24,7 @@ function main(workbook: ExcelScript.Workbook): void {
         'APPLICATION_ID': { type: 'text', maxLength: 20 },
         'PROJECT_NAME': { type: 'text', maxLength: 255, nullable: true },
         'PROJECT_DESCRIPTION': { type: 'text', nullable: true },
-        'PROJECT_LOCATION': { type: 'text', maxLength: 255 },
+        'PROJECT_LOCATION': { type: 'text'},
         'UTM_EASTING': { type: 'numeric', nullable: true, special: 'na' },
         'UTM_NORTHING': { type: 'numeric', nullable: true, special: 'na' },
         'RECEIVED_DATE': { type: 'date', nullable: false },
